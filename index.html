@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Marigold Market | Everyday goods, delivered</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation (Flexbox) -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="#" class="logo">Marigold Market</a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">
+      <label for="menu-toggle" class="menu-icon"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="#products">Shop</a></li>
+        <li><a href="#products">Deals</a></li>
+        <li><a href="#footer">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+      </ul>
+      <a href="#" class="cart">Cart (0)</a>
+    </nav>
+  </header>
+
+  <!-- Hero / Banner -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Good things for every day, at fair prices.</h1>
+      <p>Home, kitchen and workspace picks from small makers. Free delivery on orders over ₹999.</p>
+      <a href="#products" class="btn-cta">Shop new arrivals</a>
+    </div>
+    <div class="hero-art" aria-hidden="true">
+      <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span>
+    </div>
+  </section>
+
+  <!-- Products (CSS Grid) -->
+  <main id="products" class="products">
+    <h2>New arrivals</h2>
+    <div class="product-grid">
+      <article class="card"><div class="thumb t1"></div><h3>Ceramic Mug Set</h3><p class="price">₹649</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t2"></div><h3>Cotton Throw Blanket</h3><p class="price">₹1,299</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t3"></div><h3>Desk Lamp</h3><p class="price">₹1,899</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t4"></div><h3>Steel Water Bottle</h3><p class="price">₹799</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t5"></div><h3>Canvas Tote Bag</h3><p class="price">₹499</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t6"></div><h3>Notebook Trio</h3><p class="price">₹349</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t7"></div><h3>Wooden Serving Board</h3><p class="price">₹950</p><button>Add to cart</button></article>
+      <article class="card"><div class="thumb t8"></div><h3>Scented Candle</h3><p class="price">₹550</p><button>Add to cart</button></article>
+    </div>
+  </main>
+
+  <footer id="footer" class="footer">
+    <p>© 2026 Marigold Market</p>
+    <p>support@marigoldmarket.example</p>
+  </footer>
+
+</body>
+</html>
